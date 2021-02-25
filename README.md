@@ -93,11 +93,15 @@ if (true) {
     	
 }
 0 == 0
+0 + 0
+0 % 1
+Math.min(0, 0)
+true
 false && false
+!(false)
 controller.A.isPressed()
 
 effects.confetti.startScreenEffect()
-
 game.showLongText("", DialogLayout.Bottom)
 
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
