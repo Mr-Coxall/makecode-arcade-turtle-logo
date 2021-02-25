@@ -75,47 +75,29 @@ myTurtle.stamp(img`
     `)
 myTurtle.setSpeed(50)
 
-for (let index = 0; index < 4; index++) {
+controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
+})
+
+game.splash("")
+game.showLongText("", DialogLayout.Bottom)
+
+effects.confetti.startScreenEffect()
+
+forever(function () {
+})
+pause(1000)
+for (let index = 0; index < 5; index++) {
 }
 while (false) { 
 }
-for (let index = 0; index <= 4; index++) { 
-}
 for (let value of list) { 
 }
-forever(function () {
-})
 break;
 continue;
-pause(100)
 
 if (true) {
-    	
 }
 
-0 == 0
-0 + 0
-0 % 1
-Math.min(0, 0)
-
-true
-false && false
-!(false)
-controller.A.isPressed()
-game.ask("")
-game.askForNumber("")
-game.askForString("")
-
-effects.confetti.startScreenEffect()
-game.showLongText("", DialogLayout.Bottom)
-game.splash("")
-
-controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
-	
-})
-
-let text_list: string[] = []
-let list: number[] = []
 list = [0, 1]
 text_list = ["a", "b", "c"]
 ```
