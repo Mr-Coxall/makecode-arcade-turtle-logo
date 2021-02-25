@@ -93,6 +93,7 @@ if (true) {
     	
 }
 (0 == 0)
+false && false
 controller.A.isPressed()
 
 scene.setBackgroundColor(0)
@@ -105,5 +106,8 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
 	
 })
 
+let text_list: string[] = []
 let list: number[] = []
+list = [0, 1]
+text_list = ["a", "b", "c"]
 ```
