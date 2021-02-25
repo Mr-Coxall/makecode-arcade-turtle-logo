@@ -1,5 +1,4 @@
-## @explicitHints true
-### @flyoutOnly true
+### @explicitHints true
 
 # Turtle Logo
 
