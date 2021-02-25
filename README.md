@@ -1,3 +1,6 @@
+## @explicitHints true
+### @flyoutOnly true
+
 # Turtle Logo
 
 ## Step 1
