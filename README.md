@@ -92,17 +92,23 @@ pause(100)
 if (true) {
     	
 }
+
 0 == 0
 0 + 0
 0 % 1
 Math.min(0, 0)
+
 true
 false && false
 !(false)
 controller.A.isPressed()
+game.ask("")
+game.askForNumber("")
+game.askForString("")
 
 effects.confetti.startScreenEffect()
 game.showLongText("", DialogLayout.Bottom)
+game.splash("")
 
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
 	
