@@ -92,13 +92,11 @@ pause(100)
 if (true) {
     	
 }
-(0 == 0)
+0 == 0
 false && false
 controller.A.isPressed()
 
-scene.setBackgroundColor(0)
 effects.confetti.startScreenEffect()
-effects.confetti.endScreenEffect()
 
 game.showLongText("", DialogLayout.Bottom)
 
