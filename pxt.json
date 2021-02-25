@@ -2,13 +2,17 @@
     "name": "Makecode Arcade - Turtle Logo",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "Turtle Logo": "github:Mr-Coxall/turtle-logo#v0.2.7"
     },
     "files": [
         "main.blocks",
         "main.ts",
         "README.md",
-        "assets.json"
+        "assets.json",
+        "images.g.jres",
+        "images.g.ts",
+        "starter_code.md"
     ],
     "testFiles": [
         "test.ts"
@@ -20,5 +24,5 @@
     "supportedTargets": [
         "arcade"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }

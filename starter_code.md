@@ -1,3 +1,8 @@
+# Makecode Arcade - Turtle Logo
+
+## Turtle Logo
+Use the ``||Turtle||`` blocks to code your solution
+```blocks
 let myTurtle = turtle.fromSprite(sprites.create(img`
     . . . . . . . . . . . . . . . . 
     . . . . . . . . . . . . . . . . 
@@ -16,3 +21,4 @@ let myTurtle = turtle.fromSprite(sprites.create(img`
     . . . . . . . . . . . . . . . . 
     . . . . . . . . . . . . . . . . 
     `, SpriteKind.Player))
+```
