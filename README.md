@@ -25,7 +25,7 @@ let myTurtle = turtle.fromSprite(sprites.create(img`
 # Turtle Logo
 
 ## Step 1
-Always start by moving the "set myTurtle to turtle of sprite of kind Player" block into the "on start" block, so you have a Turtle to work with.
+Always start by moving the **set myTurtle to turtle of sprite of kind Player** block into the **on start** block, so you have a Turtle to work with.
 
 ```blocks
 let myTurtle = turtle.fromSprite(sprites.create(img`
