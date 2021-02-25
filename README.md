@@ -1,6 +1,6 @@
 ### @explicitHints true
+
 ```template
-```blocks
 let myTurtle = turtle.fromSprite(sprites.create(img`
     . . . . . . . . . . . . . . . . 
     . . . . . . . . . . . . . . . . 
@@ -19,7 +19,6 @@ let myTurtle = turtle.fromSprite(sprites.create(img`
     . . . . . . . . . . . . . . . . 
     . . . . . . . . . . . . . . . . 
     `, SpriteKind.Player))
-
 ```
 
 # Turtle Logo
