@@ -75,3 +75,8 @@ let myTurtle = turtle.fromSprite(sprites.create(img`
 
 ## Step 3
 Now add other blocks to code your solution
+```ghost
+for (let index = 0; index < 4; index++) {
+	
+}
+```
