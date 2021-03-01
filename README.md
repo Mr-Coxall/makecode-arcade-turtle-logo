@@ -95,7 +95,14 @@ for (let value of list) {
 break;
 continue;
 
-if (true) {
+if (!(true && false)) {
+	
+} else if (0 == 0) {
+	
+} else if ("" == "") {
+	
+} else {
+	
 }
 
 list = [0, 1]
