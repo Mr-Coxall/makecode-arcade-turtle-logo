@@ -113,6 +113,7 @@ if (!(true && false)) {
 } else {
 	
 }
+let a = true
 
 
 music.baDing.play()
