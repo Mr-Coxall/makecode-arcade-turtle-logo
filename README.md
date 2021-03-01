@@ -86,7 +86,6 @@ effects.confetti.startScreenEffect()
 forever(function () {
 })
 pause(1000)
-for (let index = 0; index < Math.min(2, 3) + 5 % 2; index++) {
 
 while (false) { 
 }
@@ -95,6 +94,9 @@ for (let value of list) {
 break;
 continue;
 
+for (let index = 0; index < Math.min(Math.sqrt(4), randint(3, 10)) + 5 % Math.abs(2); index++) {
+	
+}
 if (!(true && false)) {
 	
 } else if (0 == 0) {
@@ -104,6 +106,7 @@ if (!(true && false)) {
 } else {
 	
 }
+
 
 list = [0, 1]
 text_list = ["a", "b", "c"]
