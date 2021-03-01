@@ -75,9 +75,6 @@ myTurtle.stamp(img`
     `)
 myTurtle.setSpeed(50)
 
-controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
-})
-
 game.splash("")
 game.showLongText("", DialogLayout.Bottom)
 
@@ -126,18 +123,7 @@ music.stopAllSounds()
 music.playMelody("- - - - - - - - ", 120)
 music.setVolume("this".substr("this".compare(""), 10).indexOf(convertToText(String.fromCharCode(0))))
 
-controller.B.onEvent(ControllerButtonEvent.Pressed, function () {
-    list = [0, 1]
-    text_list = ["a", "b", "c"]
-    list = [list.length, list[list.removeAt(0)]]
-    text_list = [list._pickRandom(), list.shift(), list.pop()]
-    list[list.unshift(0)] = 0
-    list.push(0)
-    list.pop()
-    list.shift()
-    list.unshift(0)
-    list.insertAt(0, 0)
-    list.removeAt(list.indexOf(0))
-    list.reverse()
+controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
+
 })
 ```
