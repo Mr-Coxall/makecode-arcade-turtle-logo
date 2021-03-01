@@ -99,15 +99,45 @@ for (let index = 0; index < Math.min(Math.sqrt(4), randint(3, 10)) + 5 % Math.ab
 }
 if (!(true && false)) {
 	
-} else if (0 == 0) {
+} else if ("Hello".length == parseFloat("123")) {
 	
-} else if ("" == "") {
+} else if ("" == "" + "this".split("") + "World") {
+	
+} else if ("this".includes("")) {
+	
+} else if (controller.A.isPressed()) {
+	
+} else if (game.ask("")) {
+	
+} else if (game.askForNumber("") == game.askForString("")) {
+	
+} else if ("this".isEmpty()) {
 	
 } else {
 	
 }
 
 
-list = [0, 1]
-text_list = ["a", "b", "c"]
+music.baDing.play()
+music.baDing.playUntilDone()
+music.baDing.loop()
+music.baDing.stop()
+music.stopAllSounds()
+music.playMelody("- - - - - - - - ", 120)
+music.setVolume("this".substr("this".compare(""), 10).indexOf(convertToText(String.fromCharCode(0))))
+
+controller.B.onEvent(ControllerButtonEvent.Pressed, function () {
+    list = [0, 1]
+    text_list = ["a", "b", "c"]
+    list = [list.length, list[list.removeAt(0)]]
+    text_list = [list._pickRandom(), list.shift(), list.pop()]
+    list[list.unshift(0)] = 0
+    list.push(0)
+    list.pop()
+    list.shift()
+    list.unshift(0)
+    list.insertAt(0, 0)
+    list.removeAt(list.indexOf(0))
+    list.reverse()
+})
 ```
