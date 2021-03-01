@@ -86,8 +86,8 @@ effects.confetti.startScreenEffect()
 forever(function () {
 })
 pause(1000)
-for (let index = 0; index < 5; index++) {
-}
+for (let index = 0; index < Math.min(2, 3) + 5 % 2; index++) {
+
 while (false) { 
 }
 for (let value of list) { 
